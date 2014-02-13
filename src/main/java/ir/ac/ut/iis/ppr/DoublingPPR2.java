@@ -106,8 +106,8 @@ public class DoublingPPR2 {
         doublingPPR2Job.setVertexClass(DoublingPPR2Vertex.class);
         doublingPPR2Job.setInputPath(new Path(args[0]));
         doublingPPR2Job.setOutputPath(new Path(args[1]));
-//        doublingPPR2Job.setMaxIteration(DoublingPPR2.R);
-        doublingPPR2Job.setMaxIteration(1);
+        doublingPPR2Job.setMaxIteration(DoublingPPR2.R);
+//        doublingPPR2Job.setMaxIteration(1);
         doublingPPR2Job.set("hama.graph.self.ref", "true");
         doublingPPR2Job.set("hama.graph.max.convergence.error", "0.001");
         doublingPPR2Job.setVertexInputReaderClass(DoublingPPR2SeqReader.class);
