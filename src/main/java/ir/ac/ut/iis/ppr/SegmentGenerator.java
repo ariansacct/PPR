@@ -10,10 +10,8 @@ import org.apache.hama.bsp.TextArrayWritable;
 import org.apache.hama.bsp.TextOutputFormat;
 import org.apache.hama.graph.*;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
+import java.nio.file.Files;
 import java.util.*;
 
 /**
@@ -39,7 +37,9 @@ public class SegmentGenerator {
         @Override
         public void compute(Iterable<StringWritable> stringWritables) throws IOException {
             //To change body of implemented methods use File | Settings | File Templates.
+//            PrintWriter printWriter = new PrintWriter("segments.txt", "UTF-8");
             genSeg();
+//            printWriter.close();
         }
 
         public void genSeg() throws FileNotFoundException, UnsupportedEncodingException {
@@ -66,7 +66,12 @@ public class SegmentGenerator {
 
                 for (int i = 0; i < segments.length; i++) {
 
-                    if ((i  == segments.length - 1) && ((LAMBDA % THETA) > 0) && ((LAMBDA % THETA) < this.getSuperstepCount() + 1))
+//                    if ((i  == segments.length - 1) && ((LAMBDA % THETA) > 0) && ((LAMBDA % THETA) < this.getSuperstepCount() + 1))
+//                        break;  // the last segment
+
+                    if (  (i + 1 == (int) Math.ceil((double) SegmentGenerator.LAMBDA / (double) SegmentGenerator.THETA))
+                            && ( (SegmentGenerator.LAMBDA - SegmentGenerator.THETA * Math.floor((double) SegmentGenerator.LAMBDA / (double) SegmentGenerator.THETA) ) > 0 )
+                            && ( SegmentGenerator.LAMBDA - SegmentGenerator.THETA * Math.floor((double) SegmentGenerator.LAMBDA / (double) SegmentGenerator.THETA) ) < this.getSuperstepCount()  )
                         break;  // the last segment
 
                     String segment = segments[i];
@@ -75,7 +80,7 @@ public class SegmentGenerator {
                     Text lastHopID = new Text(hops[hops.length - 1]);
                     Vertex lastHop = MAP.get(lastHopID);
 
-                    MapPrinter.print(MAP, "map.txt");
+//                    MapPrinter.print(MAP, "map.txt");
 
                     List<Edge<Text,NullWritable>> outedges = lastHop.getEdges();
                     Random generator = new Random();
@@ -97,9 +102,19 @@ public class SegmentGenerator {
 
                 if (this.getSuperstepCount() == this.getMaxIteration()) {
                     SEGMENTS.put(this, this.getValue());
-                }
 
+                    try(PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("segments.txt", true)))) {
+                        out.println("*** lambda = " + LAMBDA + " ***    " + this.toString() + " |    " + this.getValue().get());
+                        out.close();
+                    }catch (IOException e) {
+                        //exception handling
+                    }
+                }
             }
+        }
+
+        public String toString() {
+            return this.getVertexID().toString();
         }
     }
 
@@ -126,11 +141,6 @@ public class SegmentGenerator {
         segmentGeneratorJob.setMaxIteration(THETA);
         segmentGeneratorJob.set("hama.graph.self.ref", "true");
         segmentGeneratorJob.set("hama.graph.max.convergence.error", "0.001");
-
-        if (args.length == 3) {
-            segmentGeneratorJob.setNumBspTask(Integer.parseInt(args[2]));
-        }
-
         segmentGeneratorJob.setVertexInputReaderClass(SegmentGeneratorSeqReader.class);
         segmentGeneratorJob.setVertexIDClass(Text.class);
         segmentGeneratorJob.setVertexValueClass(StringWritable.class);
@@ -151,6 +161,6 @@ public class SegmentGenerator {
         GraphJob segmentGeneratorJob = createJob(args, conf);
         long startTime = System.currentTimeMillis();
         if (segmentGeneratorJob.waitForCompletion(true))
-            System.out.println("segmentGeneratorJob Finished in " + (System.currentTimeMillis() - startTime) / 1000.0 + " seconds");
+            System.out.println("segmentGeneratorJob Finished in " + (System.currentTimeMillis() - startTime) / 1000.0 + " seconds.");
     }
 }

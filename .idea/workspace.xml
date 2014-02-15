@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3553392d-8f83-4333-a1a2-12019d65472c" name="Default" comment="My commit" />
-    <list id="1dd0dd6a-f86a-4c58-9bca-3a7ac5456392" name="Failed commit: Default" comment="My commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Alaki.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/App.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR.java" afterPath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR.java" />
+    <list default="true" id="3553392d-8f83-4333-a1a2-12019d65472c" name="Default" comment="My commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directmemory_directmemory_cache_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directmemory_directmemory_kryo_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/UnitTester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_tools_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalWalks.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullhavij.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullhavij23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/map.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_test_1_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_test_1_2_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_core_0_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_core_0_6_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_examples_0_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_examples_0_6_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_graph_0_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_graph_0_6_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_ml_0_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hama_hama_ml_0_6_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullinput/.part-00000.crc" afterPath="$PROJECT_DIR$/fullinput/.part-00000.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullinput/part-00000" afterPath="$PROJECT_DIR$/fullinput/part-00000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java" afterPath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PPR.iml" afterPath="$PROJECT_DIR$/PPR.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java" afterPath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SymmetricMatrixGenTest.java" afterPath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SymmetricMatrixGenTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java" afterPath="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="1dd0dd6a-f86a-4c58-9bca-3a7ac5456392" name="Failed commit: Default" comment="My commit" />
     <ignored path="PPR.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,6 +87,38 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SymmetricMatrixGenTest.java" line="44" class="ir.ac.ut.iis.ppr.SymmetricMatrixGenTest" package="ir.ac.ut.iis.ppr">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SymmetricMatrixGenTest.java" line="39" class="ir.ac.ut.iis.ppr.SymmetricMatrixGenTest" package="ir.ac.ut.iis.ppr">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -76,16 +131,7 @@
       <file leaf-file-name="Test2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="82" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SegmentGenerator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="51" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-0.6845966" vertical-offset="2500" max-vertical-offset="2940">
+            <state line="14" column="17" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -94,7 +140,43 @@
       <file leaf-file-name="DoublingPPR2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="9" selection-start="3859" selection-end="3859" vertical-scroll-proportion="0.0" vertical-offset="1562" max-vertical-offset="2480">
+            <state line="90" column="38" selection-start="4052" selection-end="4052" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="3160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalBSPRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hama/hama-core/0.6.3/hama-core-0.6.3-sources.jar!/org/apache/hama/bsp/LocalBSPRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="433" column="19" selection-start="13212" selection-end="13217" vertical-scroll-proportion="0.0" vertical-offset="8660" max-vertical-offset="10660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CyclicBarrier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0/src.zip!/java/util/concurrent/CyclicBarrier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="415" column="54" selection-start="14955" selection-end="14955" vertical-scroll-proportion="0.0" vertical-offset="7220" max-vertical-offset="9220">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.23489933" vertical-offset="0" max-vertical-offset="596">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SegmentGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="34" selection-start="5979" selection-end="5979" vertical-scroll-proportion="0.0" vertical-offset="2597" max-vertical-offset="3180">
               <folding />
             </state>
           </provider>
@@ -103,9 +185,10 @@
       <file leaf-file-name="SingleRandomWalkSQRT.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="4288" selection-end="4288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2660">
+            <state line="84" column="83" selection-start="3921" selection-end="3921" vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="2780">
               <folding>
-                <element signature="e#992#1014#0" expanded="true" />
+                <element signature="e#3687#3746#0" expanded="true" />
+                <element signature="e#4157#4165#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,11 +221,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MapPrinter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Alaki.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/UnitTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SymmetricMatrixGenTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java" />
       </list>
     </option>
   </component>
@@ -157,9 +243,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="64" />
     <option name="y" value="-4" />
-    <option name="width" value="1282" />
+    <option name="width" value="1217" />
     <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -188,6 +274,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,68 +294,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PPR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PPR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PPR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PPR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PPR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PPR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,24 +327,18 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="462" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Test2">
-    <configuration default="false" name="DoublingPPR" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ir.ac.ut.iis.ppr.DoublingPPR" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="input testOutput" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PPR" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="SegmentGenerator" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ir.ac.ut.iis.ppr.SegmentGenerator" />
       <option name="VM_PARAMETERS" value="" />
@@ -333,26 +355,10 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SegmentGeneratorTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ir.ac.ut.iis.ppr.SegmentGeneratorTest" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="input testOutput2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PPR" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Test2" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ir.ac.ut.iis.ppr.Test2" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="fullinput testfullOutput" />
+      <option name="PROGRAM_PARAMETERS" value="fullinput test2out" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -368,6 +374,22 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.ac.ut.iis.ppr.UnitTester" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="input testtesttest" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PPR" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -390,6 +412,34 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SymmetricMatrixGenTest.testGraphGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PPR" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ir.ac.ut.iis.ppr" />
+      <option name="MAIN_CLASS_NAME" value="ir.ac.ut.iis.ppr.SymmetricMatrixGenTest" />
+      <option name="METHOD_NAME" value="testGraphGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -521,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DoublingPPR" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SegmentGenerator" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SegmentGeneratorTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyGraphGeneratorTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SegmentGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UnitTester" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyGraphGeneratorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SymmetricMatrixGenTest.testGraphGenerator" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Test2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyGraphGeneratorTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SegmentGenerator" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SegmentGeneratorTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DoublingPPR" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SymmetricMatrixGenTest.testGraphGenerator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UnitTester" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyGraphGeneratorTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SegmentGenerator" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -569,32 +619,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1282" height="805" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1217" height="805" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.421365" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42089093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32195845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31950846" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.64535767" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.64535767" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.65753424" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5341246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617622" sideWeight="0.65753424" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49615976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -635,118 +685,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.0" vertical-offset="2100" max-vertical-offset="2660">
-          <folding>
-            <element signature="e#992#1014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MapPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="4641">
-          <folding>
-            <element signature="e#992#1014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="28" selection-start="2777" selection-end="2777" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2397">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="5" selection-start="4433" selection-end="4433" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2737">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MapPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="3757">
-          <folding>
-            <element signature="e#992#1014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="28" selection-start="2777" selection-end="2777" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="52" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="2898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MapPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="3978">
-          <folding>
-            <element signature="e#992#1014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="28" selection-start="2777" selection-end="2777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="52" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2415">
@@ -763,7 +701,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="3315">
           <folding>
-            <element signature="e#992#1014#0" expanded="true" />
+            <element signature="e#3687#3746#0" expanded="true" />
+            <element signature="e#4157#4165#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -798,7 +737,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="3315">
           <folding>
-            <element signature="e#992#1014#0" expanded="true" />
+            <element signature="e#3687#3746#0" expanded="true" />
+            <element signature="e#4157#4165#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -841,11 +781,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hama/hama-graph/0.6.2/hama-graph-0.6.2.jar!/org/apache/hama/graph/Vertex.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="19" selection-start="593" selection-end="594" vertical-scroll-proportion="0.49275362" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MapPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -898,16 +833,6 @@
         <state line="179" column="33" selection-start="5790" selection-end="5790" vertical-scroll-proportion="0.01650165" vertical-offset="3530" max-vertical-offset="7520" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MyGraphGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="2760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MyGraphGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="15" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.04290429" vertical-offset="1254" max-vertical-offset="1860" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Summarization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="242" selection-end="242" vertical-scroll-proportion="-0.03169572" vertical-offset="240" max-vertical-offset="2140" />
@@ -918,32 +843,135 @@
         <state line="18" column="13" selection-start="454" selection-end="454" vertical-scroll-proportion="0.46210268" vertical-offset="31" max-vertical-offset="680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java">
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="4288" selection-end="4288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2660">
-          <folding>
-            <element signature="e#992#1014#0" expanded="true" />
-          </folding>
+        <state line="723" column="0" selection-start="26944" selection-end="26944" vertical-scroll-proportion="0.0" vertical-offset="13626" max-vertical-offset="39580" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1141" column="0" selection-start="44281" selection-end="44281" vertical-scroll-proportion="0.0" vertical-offset="21994" max-vertical-offset="41140" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="510" column="0" selection-start="21881" selection-end="21881" vertical-scroll-proportion="0.0" vertical-offset="9254" max-vertical-offset="13940" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="0" selection-start="8885" selection-end="8885" vertical-scroll-proportion="0.0" vertical-offset="4554" max-vertical-offset="9180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MapPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="72" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/UnitTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="858" selection-end="858" vertical-scroll-proportion="0.6111111" vertical-offset="180" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MyGraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="42" selection-start="4703" selection-end="4703" vertical-scroll-proportion="-0.5529716" vertical-offset="2294" max-vertical-offset="2760">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/MyGraphGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="9" selection-start="3859" selection-end="3859" vertical-scroll-proportion="0.0" vertical-offset="1562" max-vertical-offset="2480">
+        <state line="58" column="43" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.051679585" vertical-offset="400" max-vertical-offset="1120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.28" vertical-offset="18" max-vertical-offset="340" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="489" selection-end="489" vertical-scroll-proportion="0.61279464" vertical-offset="38" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="504" selection-end="504" vertical-scroll-proportion="0.3309859" vertical-offset="146" max-vertical-offset="1060" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hama/hama-examples/0.6.3/hama-examples-0.6.3.jar!/org/apache/hama/examples/util/SymmetricMatrixGen.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hama/hama-examples/0.6.3/hama-examples-0.6.3-sources.jar!/org/apache/hama/examples/util/SymmetricMatrixGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="26" selection-start="5149" selection-end="5155" vertical-scroll-proportion="0.28134558" vertical-offset="2808" max-vertical-offset="3340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SymmetricMatrixGenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="58" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.78176796" vertical-offset="477" max-vertical-offset="1060">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="82" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="560">
+        <state line="14" column="17" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="560">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/DoublingPPR2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="38" selection-start="4052" selection-end="4052" vertical-scroll-proportion="0.0" vertical-offset="1265" max-vertical-offset="2800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hama/hama-core/0.6.3/hama-core-0.6.3.jar!/org/apache/hama/bsp/LocalBSPRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="0" selection-start="8680" selection-end="8680" vertical-scroll-proportion="0.0" vertical-offset="2765" max-vertical-offset="3000" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hama/hama-core/0.6.3/hama-core-0.6.3-sources.jar!/org/apache/hama/bsp/LocalBSPRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="433" column="19" selection-start="13212" selection-end="13217" vertical-scroll-proportion="0.0" vertical-offset="8660" max-vertical-offset="10660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="415" column="54" selection-start="14955" selection-end="14955" vertical-scroll-proportion="0.0" vertical-offset="7220" max-vertical-offset="9220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SingleRandomWalkSQRT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="83" selection-start="3921" selection-end="3921" vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="2780">
+          <folding>
+            <element signature="e#3687#3746#0" expanded="true" />
+            <element signature="e#4157#4165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/ut/iis/ppr/SegmentGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="51" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-0.6845966" vertical-offset="2500" max-vertical-offset="2940">
+        <state line="141" column="34" selection-start="5979" selection-end="5979" vertical-scroll-proportion="0.0" vertical-offset="2474" max-vertical-offset="3180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.23489933" vertical-offset="0" max-vertical-offset="596">
           <folding />
         </state>
       </provider>
@@ -951,9 +979,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PPR</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ant:ant:1.6.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

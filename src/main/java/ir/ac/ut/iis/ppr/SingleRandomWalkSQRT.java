@@ -14,6 +14,9 @@ import org.apache.hama.graph.Edge;
 import org.apache.hama.graph.GraphJob;
 import org.apache.hama.graph.Vertex;
 import org.apache.hama.graph.VertexInputReader;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
@@ -56,16 +59,22 @@ public class SingleRandomWalkSQRT {
 
                 String[] lastNodeSegments = lastNodeValue.get().split("-");
                 // eshkale ,, ine ke farz mikoni lastNode hamishe yeraghamie
-                String ithSegment = new String(lastNodeSegments[i]);
+//                String ithSegment = new String(lastNodeSegments[i]);
+                String ithSegment = new String(lastNodeSegments[i - 1]);
                 int commaIndex = ithSegment.indexOf(',');
-                String toBeAppended = new String(lastNodeSegments[i].substring(commaIndex + 1));
+                String toBeAppended = new String(lastNodeSegments[i - 1].substring(commaIndex + 1));
                 String newValueString = oldValueString + toBeAppended;
-                if (i != SegmentGenerator.NO_SEGMENTS - 1)
+                if (i != SegmentGenerator.NO_SEGMENTS)
                     newValueString = newValueString + ",";
                 this.setValue(new StringWritable(newValueString));
 
                 if (this.getSuperstepCount() == this.getMaxIteration()) {
-                    finalWriter.println("finalWalk: " + this.getValue().get());
+                    try(PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("walks.txt", true)))) {
+                        out.println("walk for Vertex " + this.getVertexID().toString() + ": " + this.getValue().get());
+                        out.close();
+                    }catch (IOException e) {
+                        //exception handling
+                    }
                     walks.put(this.getVertexID(), this.getValue());
                 }
 
@@ -109,7 +118,7 @@ public class SingleRandomWalkSQRT {
         singleRandomWalkSQRTJob.setVertexClass(SingleRandomWalkSQRTVertex.class);
         singleRandomWalkSQRTJob.setInputPath(new Path(args[0]));
         singleRandomWalkSQRTJob.setOutputPath(new Path(args[1]));
-        singleRandomWalkSQRTJob.setMaxIteration(SegmentGenerator.NO_SEGMENTS - 1); // felan -1 chon tikeye akhare segmentamoon felan kar nemikone
+        singleRandomWalkSQRTJob.setMaxIteration(SegmentGenerator.NO_SEGMENTS); // felan -1 chon tikeye akhare segmentamoon felan kar nemikone
         singleRandomWalkSQRTJob.set("hama.pagerank.alpha", "0.85");
         singleRandomWalkSQRTJob.set("hama.graph.self.ref", "true");
         singleRandomWalkSQRTJob.set("hama.graph.max.convergence.error", "0.001");
@@ -135,7 +144,7 @@ public class SingleRandomWalkSQRT {
         long startTime = System.currentTimeMillis();
         if (singleRandomWalkSQRTJob.waitForCompletion(true))
             System.out.println("singleRandomWalkSQRTJob Finished in "
-                    + (System.currentTimeMillis() - startTime) / 1000.0 + " seconds");
+                    + (System.currentTimeMillis() - startTime) / 1000.0 + " seconds.");
         finalWriter.close();
 
     }

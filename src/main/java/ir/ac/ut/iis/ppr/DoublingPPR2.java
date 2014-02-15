@@ -40,6 +40,7 @@ public class DoublingPPR2 {
 
         @Override
         public void compute(Iterable<StringWritable> stringWritables) throws IOException {
+            System.out.println("------------------------------" + this.getVertexID());
             //To change body of implemented methods use File | Settings | File Templates.
             if (this.getSuperstepCount() == 0) {
                 String value = new String();
@@ -49,14 +50,20 @@ public class DoublingPPR2 {
             else if (this.getSuperstepCount() > 0) {
                 String temp = new String();
                 temp = this.getValue().get();
+
+                if (temp==null)
+                    System.out.println("temp is null");
+
                 int lambda = Math.abs(StdRandom.geometric(EPSILON));
                 SegmentGenerator.LAMBDA = lambda;
+                System.out.println("lambda for this iteration: " + SegmentGenerator.LAMBDA);
                 SegmentGenerator.THETA = 1;
-                SegmentGenerator.NO_SEGMENTS = (int) ((double) SegmentGenerator.LAMBDA
-                        / (double) SegmentGenerator.THETA + 1);
+//                SegmentGenerator.NO_SEGMENTS = (int) ((double) SegmentGenerator.LAMBDA
+//                        / (double) SegmentGenerator.THETA + 1);
+                SegmentGenerator.NO_SEGMENTS = (int) Math.ceil((double) SegmentGenerator.LAMBDA / (double) SegmentGenerator.THETA);
                 String[] args = new String[2];
-                args[0] = "input";
-                args[1] = "sgoutput";
+                args[0] = "fullinput";
+                args[1] = "yekoutput";
 
                 try {
                     SegmentGenerator.main(args);
@@ -72,14 +79,23 @@ public class DoublingPPR2 {
                 } catch (ClassNotFoundException e) {
                     e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                 }
+
+                System.out.println("miayam inja");
+
                 String newTemp = new String();
+                if (SingleRandomWalkSQRT.walks.get(this.getVertexID())==null)
+                    System.out.println("iteration "+ this.getSuperstepCount()+" for vertex "+ this.getVertexID()+": oonyeki is null");
+
+                if (SingleRandomWalkSQRT.walks.get(this.getVertexID())!=null)
+                    System.out.println("end of iteration "+ this.getSuperstepCount()+" for vertex "+ this.getVertexID()+": oonyeki is not null");
                 newTemp = temp + SingleRandomWalkSQRT.walks.get(this.getVertexID()).get();
+                if (newTemp==null)
+                    System.out.println("newtemp is null");
+
+
+
                 if (this.getSuperstepCount() != this.getMaxIteration())
                     newTemp = newTemp + ";";
-
-
-
-
 
             }
         }
@@ -107,7 +123,7 @@ public class DoublingPPR2 {
         doublingPPR2Job.setInputPath(new Path(args[0]));
         doublingPPR2Job.setOutputPath(new Path(args[1]));
         doublingPPR2Job.setMaxIteration(DoublingPPR2.R);
-//        doublingPPR2Job.setMaxIteration(1);
+//        doublingPPR2Job.setMaxIteration(2);
         doublingPPR2Job.set("hama.graph.self.ref", "true");
         doublingPPR2Job.set("hama.graph.max.convergence.error", "0.001");
         doublingPPR2Job.setVertexInputReaderClass(DoublingPPR2SeqReader.class);

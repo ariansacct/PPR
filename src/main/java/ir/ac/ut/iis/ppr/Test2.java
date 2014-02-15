@@ -23,6 +23,6 @@ public class Test2 {
         long startTime = System.currentTimeMillis();
         if (doublingPPR2Job.waitForCompletion(true))
             System.out.println("doublingPPR2Job Finished in "
-                    + (System.currentTimeMillis() - startTime) / 1000.0 + " seconds");
+                    + (System.currentTimeMillis() - startTime) / 1000.0 + " seconds.");
     }
 }
